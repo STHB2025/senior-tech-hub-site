@@ -243,6 +243,16 @@ h3 {
   box-shadow: var(--shadow);
 }
 
+.text-button {
+  background: transparent;
+  color: var(--navy);
+  border-color: var(--navy);
+}
+
+.tips-button {
+  margin-top: 28px;
+}
+
 .hero-card,
 .visual-panel,
 .card,
@@ -484,9 +494,14 @@ h3 {
   justify-content: center;
 }
 
+.contact-email,
 .location {
   margin-top: 24px;
   font-weight: 700;
+}
+
+.contact-email a {
+  color: var(--navy);
 }
 
 .site-footer {
@@ -534,6 +549,15 @@ h3 {
 
 .site-footer p {
   margin: 0;
+}
+
+.footer-link {
+  margin-top: 10px;
+}
+
+.footer-link a {
+  color: var(--light-blue);
+  font-weight: 700;
 }
 
 @media (max-width: 980px) {
