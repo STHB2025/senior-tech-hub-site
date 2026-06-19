@@ -258,6 +258,7 @@ h3 {
 .card,
 .content-panel,
 .contact-section,
+.founder-card,
 .tech-tips-card {
   border-radius: 30px;
   box-shadow: var(--shadow);
@@ -363,6 +364,7 @@ h3 {
 
 .about-section,
 .split-section,
+.founder-card,
 .tech-tips-card {
   display: grid;
   grid-template-columns: 0.95fr 1.05fr;
@@ -383,9 +385,40 @@ h3 {
 .card,
 .content-panel,
 .contact-section,
+.founder-card,
 .tech-tips-card,
 .visual-panel {
   background: var(--white);
+}
+
+.founder-card {
+  padding: 34px;
+  border-left: 10px solid var(--orange);
+}
+
+.founder-mark {
+  display: inline-grid;
+  place-items: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 30px;
+  color: var(--white);
+  background: linear-gradient(135deg, var(--navy), #0e5aa7);
+  border: 5px solid var(--orange);
+  font-size: 2.4rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+}
+
+.founder-title {
+  margin: 12px 0 18px;
+  color: var(--navy);
+  font-weight: 800;
+  font-size: 1.15rem;
+}
+
+.founder-content .button {
+  margin-top: 26px;
 }
 
 .card,
@@ -632,6 +665,7 @@ h3 {
   .three-column,
   .split-section,
   .about-section,
+  .founder-card,
   .tech-tips-card {
     grid-template-columns: 1fr;
   }
@@ -648,12 +682,19 @@ h3 {
   }
 
   .hero-card,
+  .founder-card,
   .tech-tips-card,
   .card,
   .content-panel,
   .visual-panel {
     padding: 22px;
     border-radius: 24px;
+  }
+
+  .founder-mark {
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
   }
 
   .hero-logo-wrap,
