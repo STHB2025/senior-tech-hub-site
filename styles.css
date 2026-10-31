@@ -949,7 +949,8 @@ h3 {
   overflow: hidden;
   border: 2px solid var(--light-blue);
   border-radius: 32px;
-  background: radial-gradient(ellipse at 50% 88%, #dceeff, var(--white) 72%);
+  background: radial-gradient(ellipse at 50% 78%, #0e5aa7 0, #0b2545 58%, #07182e 100%);
+  box-shadow: 0 18px 40px rgba(7, 24, 46, .24);
 }
 
 .founder-portrait-halo {
@@ -959,9 +960,9 @@ h3 {
   left: 50%;
   width: 82%;
   aspect-ratio: 1;
-  border: 2px solid rgba(14, 90, 167, 0.32);
+  border: 2px solid rgba(125, 211, 238, 0.5);
   border-radius: 50%;
-  background: linear-gradient(145deg, #f6fbff, #b8ddff);
+  background: radial-gradient(circle at 45% 38%, rgba(28, 111, 180, .72), rgba(11, 37, 69, .18) 72%);
   transform: translateX(-50%);
 }
 
@@ -970,7 +971,7 @@ h3 {
   height: 310px;
   object-fit: contain;
   object-position: center bottom;
-  filter: drop-shadow(0 12px 14px rgba(6, 24, 47, 0.17));
+  filter: drop-shadow(0 12px 14px rgba(0, 0, 0, 0.34));
 }
 
 .founder-portrait-frame figcaption {
@@ -980,7 +981,7 @@ h3 {
   padding: 8px 12px;
   border-radius: 999px;
   color: var(--white);
-  background: var(--navy);
+  background: #0e5aa7;
   font-size: 0.86rem;
   font-weight: 800;
 }
